@@ -54,7 +54,11 @@ list(SORT lzo_SOURCES)
 
 # LZO library
 add_library(lzo2 ${lzo_SOURCES})
-set_target_properties(lzo2 PROPERTIES OUTPUT_NAME lzo2)
+set_target_properties(lzo2
+  PROPERTIES
+  OUTPUT_NAME lzo2
+  OUTPUT_NAME_DEBUG lzo2d
+)
 if(BUILD_SHARED_LIBS)
     set_target_properties(lzo2 PROPERTIES SOVERSION 2 VERSION 2.0.0) # ABI version is 2.0.0 !
     set_target_properties(lzo2 PROPERTIES WINDOWS_EXPORT_ALL_SYMBOLS ON)
@@ -109,7 +113,7 @@ add_definitions(-DLZO_CFG_NO_CONFIG_HEADER=1)
 # ************************************************************************/
 
 install(DIRECTORY include/lzo
-    DESTINATION include/lzo
+    DESTINATION include
 )
 
 include(CMakePackageConfigHelpers)
