@@ -6,71 +6,26 @@
 /* Define if building universal (internal helper macro) */
 #undef AC_APPLE_UNIVERSAL_BUILD
 
-/* Define to 1 if you have the `access' function. */
-#undef HAVE_ACCESS
-
 /* Define to 1 if you have the `alloca' function. */
 #undef HAVE_ALLOCA
-
-/* Define to 1 if you have the <assert.h> header file. */
-#undef HAVE_ASSERT_H
-
-/* Define to 1 if you have the `atexit' function. */
-#undef HAVE_ATEXIT
-
-/* Define to 1 if you have the `atoi' function. */
-#undef HAVE_ATOI
-
-/* Define to 1 if you have the `atol' function. */
-#undef HAVE_ATOL
-
-/* Define to 1 if you have the `chmod' function. */
-#undef HAVE_CHMOD
-
-/* Define to 1 if you have the `chown' function. */
-#undef HAVE_CHOWN
-
-/* Define to 1 if you have the `clock_getcpuclockid' function. */
-#undef HAVE_CLOCK_GETCPUCLOCKID
-
-/* Define to 1 if you have the `clock_getres' function. */
-#undef HAVE_CLOCK_GETRES
 
 /* Define to 1 if you have the `clock_gettime' function. */
 #undef HAVE_CLOCK_GETTIME
 
-/* Define to 1 if you have the `ctime' function. */
-#undef HAVE_CTIME
-
 /* Define to 1 if you have the <ctype.h> header file. */
-#undef HAVE_CTYPE_H
-
-/* Define to 1 if you have the `difftime' function. */
-#undef HAVE_DIFFTIME
+#define HAVE_CTYPE_H 1
 
 /* Define to 1 if you have the <dirent.h> header file. */
 #undef HAVE_DIRENT_H
 
-/* Define to 1 if you have the <dlfcn.h> header file. */
-#undef HAVE_DLFCN_H
-
 /* Define to 1 if you have the <errno.h> header file. */
-#undef HAVE_ERRNO_H
+#define HAVE_ERRNO_H 1
 
 /* Define to 1 if you have the <fcntl.h> header file. */
-#undef HAVE_FCNTL_H
-
-/* Define to 1 if you have the <float.h> header file. */
-#undef HAVE_FLOAT_H
-
-/* Define to 1 if you have the `fstat' function. */
-#undef HAVE_FSTAT
+#define HAVE_FCNTL_H 1
 
 /* Define to 1 if you have the `getenv' function. */
-#undef HAVE_GETENV
-
-/* Define to 1 if you have the `getpagesize' function. */
-#undef HAVE_GETPAGESIZE
+#define HAVE_GETENV 1
 
 /* Define to 1 if you have the `getrusage' function. */
 #undef HAVE_GETRUSAGE
@@ -78,134 +33,59 @@
 /* Define to 1 if you have the `gettimeofday' function. */
 #undef HAVE_GETTIMEOFDAY
 
-/* Define to 1 if you have the `gmtime' function. */
-#undef HAVE_GMTIME
-
-/* Define to 1 if you have the <inttypes.h> header file. */
-#undef HAVE_INTTYPES_H
-
 /* Define to 1 if you have the `isatty' function. */
-#undef HAVE_ISATTY
-
-/* Define to 1 if you have the <limits.h> header file. */
-#undef HAVE_LIMITS_H
-
-/* Define to 1 if you have the `localtime' function. */
-#undef HAVE_LOCALTIME
-
-/* Define to 1 if you have the `longjmp' function. */
-#undef HAVE_LONGJMP
-
-/* Define to 1 if you have the `lstat' function. */
-#undef HAVE_LSTAT
+#define HAVE_ISATTY 1
 
 /* Define to 1 if you have the <malloc.h> header file. */
-#undef HAVE_MALLOC_H
+#define HAVE_MALLOC_H 1
 
 /* Define to 1 if you have the `memcmp' function. */
-#undef HAVE_MEMCMP
+#define HAVE_MEMCMP 1
 
 /* Define to 1 if you have the `memcpy' function. */
-#undef HAVE_MEMCPY
+#define HAVE_MEMCPY 1
 
 /* Define to 1 if you have the `memmove' function. */
-#undef HAVE_MEMMOVE
+#define HAVE_MEMMOVE 1
 
 /* Define to 1 if you have the <memory.h> header file. */
-#undef HAVE_MEMORY_H
+#define HAVE_MEMORY_H 1
 
 /* Define to 1 if you have the `memset' function. */
-#undef HAVE_MEMSET
-
-/* Define to 1 if you have the `mkdir' function. */
-#undef HAVE_MKDIR
-
-/* Define to 1 if you have the `mktime' function. */
-#undef HAVE_MKTIME
-
-/* Define to 1 if you have the `mmap' function. */
-#undef HAVE_MMAP
-
-/* Define to 1 if you have the `mprotect' function. */
-#undef HAVE_MPROTECT
-
-/* Define to 1 if you have the `munmap' function. */
-#undef HAVE_MUNMAP
-
-/* Define to 1 if you have the `qsort' function. */
-#undef HAVE_QSORT
-
-/* Define to 1 if you have the `raise' function. */
-#undef HAVE_RAISE
+#define HAVE_MEMSET 1
 
 /* Define to 1 if you have the `rmdir' function. */
-#undef HAVE_RMDIR
-
-/* Define to 1 if you have the `setjmp' function. */
-#undef HAVE_SETJMP
+#define HAVE_RMDIR 1
 
 /* Define to 1 if you have the <setjmp.h> header file. */
-#undef HAVE_SETJMP_H
+#define HAVE_SETJMP_H 1
 
 /* Define to 1 if you have the `signal' function. */
 #undef HAVE_SIGNAL
 
 /* Define to 1 if you have the <signal.h> header file. */
-#undef HAVE_SIGNAL_H
-
-/* Define to 1 if you have the `snprintf' function. */
-#undef HAVE_SNPRINTF
+#define HAVE_SIGNAL_H 1
 
 /* Define to 1 if you have the <stdarg.h> header file. */
-#undef HAVE_STDARG_H
+#define HAVE_STDARG_H 1
 
 /* Define to 1 if you have the <stddef.h> header file. */
-#undef HAVE_STDDEF_H
+#define HAVE_STDDEF_H 1
 
 /* Define to 1 if you have the <stdint.h> header file. */
-#undef HAVE_STDINT_H
+#define HAVE_STDINT_H 1
 
 /* Define to 1 if you have the <stdio.h> header file. */
-#undef HAVE_STDIO_H
+#define HAVE_STDIO_H 1
 
 /* Define to 1 if you have the <stdlib.h> header file. */
-#undef HAVE_STDLIB_H
-
-/* Define to 1 if you have the `strcasecmp' function. */
-#undef HAVE_STRCASECMP
-
-/* Define to 1 if you have the `strchr' function. */
-#undef HAVE_STRCHR
-
-/* Define to 1 if you have the `strdup' function. */
-#undef HAVE_STRDUP
-
-/* Define to 1 if you have the `strerror' function. */
-#undef HAVE_STRERROR
-
-/* Define to 1 if you have the `strftime' function. */
-#undef HAVE_STRFTIME
-
-/* Define to 1 if you have the `stricmp' function. */
-#undef HAVE_STRICMP
+#define HAVE_STDLIB_H 1
 
 /* Define to 1 if you have the <strings.h> header file. */
 #undef HAVE_STRINGS_H
 
 /* Define to 1 if you have the <string.h> header file. */
-#undef HAVE_STRING_H
-
-/* Define to 1 if you have the `strncasecmp' function. */
-#undef HAVE_STRNCASECMP
-
-/* Define to 1 if you have the `strnicmp' function. */
-#undef HAVE_STRNICMP
-
-/* Define to 1 if you have the `strrchr' function. */
-#undef HAVE_STRRCHR
-
-/* Define to 1 if you have the `strstr' function. */
-#undef HAVE_STRSTR
+#define HAVE_STRING_H 1
 
 /* Define to 1 if you have the <sys/mman.h> header file. */
 #undef HAVE_SYS_MMAN_H
@@ -214,37 +94,22 @@
 #undef HAVE_SYS_RESOURCE_H
 
 /* Define to 1 if you have the <sys/stat.h> header file. */
-#undef HAVE_SYS_STAT_H
+#define HAVE_SYS_STAT_H 1
 
 /* Define to 1 if you have the <sys/time.h> header file. */
 #undef HAVE_SYS_TIME_H
 
 /* Define to 1 if you have the <sys/types.h> header file. */
-#undef HAVE_SYS_TYPES_H
-
-/* Define to 1 if you have the <sys/wait.h> header file. */
-#undef HAVE_SYS_WAIT_H
-
-/* Define to 1 if you have the `time' function. */
-#undef HAVE_TIME
+#define HAVE_SYS_TYPES_H 1
 
 /* Define to 1 if you have the <time.h> header file. */
-#undef HAVE_TIME_H
-
-/* Define to 1 if you have the `umask' function. */
-#undef HAVE_UMASK
+#define HAVE_TIME_H 1
 
 /* Define to 1 if you have the <unistd.h> header file. */
 #undef HAVE_UNISTD_H
 
-/* Define to 1 if you have the `utime' function. */
-#undef HAVE_UTIME
-
 /* Define to 1 if you have the <utime.h> header file. */
 #undef HAVE_UTIME_H
-
-/* Define to 1 if you have the `vsnprintf' function. */
-#undef HAVE_VSNPRINTF
 
 /* Define to the sub-directory where libtool stores uninstalled libraries. */
 #undef LT_OBJDIR
@@ -253,7 +118,7 @@
 #undef LZO_ABI_BIG_ENDIAN
 
 /* Define to 1 if your machine is little endian. */
-#undef LZO_ABI_LITTLE_ENDIAN
+#define LZO_ABI_LITTLE_ENDIAN 1
 
 /* Name of package */
 #undef PACKAGE
@@ -279,41 +144,14 @@
 /* Define as the return type of signal handlers (`int' or `void'). */
 #undef RETSIGTYPE
 
-/* The size of `dev_t', as computed by sizeof. */
-#undef SIZEOF_DEV_T
-
-/* The size of `double', as computed by sizeof. */
-#undef SIZEOF_DOUBLE
-
-/* The size of `float', as computed by sizeof. */
-#undef SIZEOF_FLOAT
-
-/* The size of `fpos_t', as computed by sizeof. */
-#undef SIZEOF_FPOS_T
-
 /* The size of `int', as computed by sizeof. */
 #undef SIZEOF_INT
-
-/* The size of `intmax_t', as computed by sizeof. */
-#undef SIZEOF_INTMAX_T
-
-/* The size of `intptr_t', as computed by sizeof. */
-#undef SIZEOF_INTPTR_T
 
 /* The size of `long', as computed by sizeof. */
 #undef SIZEOF_LONG
 
-/* The size of `long double', as computed by sizeof. */
-#undef SIZEOF_LONG_DOUBLE
-
 /* The size of `long long', as computed by sizeof. */
 #undef SIZEOF_LONG_LONG
-
-/* The size of `mode_t', as computed by sizeof. */
-#undef SIZEOF_MODE_T
-
-/* The size of `off_t', as computed by sizeof. */
-#undef SIZEOF_OFF_T
 
 /* The size of `ptrdiff_t', as computed by sizeof. */
 #undef SIZEOF_PTRDIFF_T
@@ -323,18 +161,6 @@
 
 /* The size of `size_t', as computed by sizeof. */
 #undef SIZEOF_SIZE_T
-
-/* The size of `ssize_t', as computed by sizeof. */
-#undef SIZEOF_SSIZE_T
-
-/* The size of `time_t', as computed by sizeof. */
-#undef SIZEOF_TIME_T
-
-/* The size of `uintmax_t', as computed by sizeof. */
-#undef SIZEOF_UINTMAX_T
-
-/* The size of `uintptr_t', as computed by sizeof. */
-#undef SIZEOF_UINTPTR_T
 
 /* The size of `void *', as computed by sizeof. */
 #undef SIZEOF_VOID_P
@@ -350,9 +176,6 @@
 
 /* Define to 1 if you have the ANSI C header files. */
 #undef STDC_HEADERS
-
-/* Define to 1 if you can safely include both <sys/time.h> and <time.h>. */
-#undef TIME_WITH_SYS_TIME
 
 /* Version number of package */
 #undef VERSION
